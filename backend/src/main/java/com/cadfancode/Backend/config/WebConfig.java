@@ -11,7 +11,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
             registry.addMapping("/**") // Apply to all endpoints
                     .allowedOrigins(
                             "http://localhost:5173", // Vue local development port
-                            "https://your-vercel-app.vercel.app" // Add your Vercel URL later once generated
+                            "https://filter-usurping-candidate-method.vercel.app/"
                     )
                     .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                     .allowedHeaders("*")

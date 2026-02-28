@@ -1,4 +1,4 @@
-package src.main.java.com.cadfancode.Backend;
+package com.cadfancode.Backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
